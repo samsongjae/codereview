@@ -9,6 +9,8 @@ void pushQueue(templatePriorityQueue<T>* Que, int data){
 	cout << "[+] Integer "<< data <<" pushed in the Priority Queue." << endl;
 	Que->push(data);
 }
+//test 1
+
 
 template<typename T>
 void popQueue(templatePriorityQueue<T>* Que){
